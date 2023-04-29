@@ -4,28 +4,11 @@
         <title></title>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <style>
 
 
-.box {
-  width: 15em;
-  margin-top: 100px;
-  margin-left: 5em;
-  position: absolute;
-  height: auto;
-}
-
-#one {
-  position: fixed;
-  left: -20em;
-  background: blue;
-}
-
-.outer {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
         body {
             background-color: #e3e3e3;
         }
@@ -61,14 +44,6 @@
   font-size: 17px;
 }
 
-#main {
-            display: flex;
-            justify-content: center;
-            height: 800px;
-            align-items: center;
-            
-        }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -85,7 +60,7 @@
     </style>
     <body>
         <div class="topnav">
-            <a href="index.html">Home</a>A
+             <a href="index.html">Home</a>A
             <a href="antennas.html">Antennas</a>
             <a href="transceiver.html">Transceiver</a>
             <a href="awards.html">Awards</a>
@@ -93,8 +68,17 @@
             <a class="active" href="about.html">About</a>
             </div>
           </div>
-          <div id="main">
-            <h3>“It does not matter how slowly you go as long as you do not stop.”<br><p>73</p></h3>
+  
+
+          <div class="vh-100 d-flex justify-content-center align-items-center">
+            <div class="row justify-content-center">
+              <div><h5 class="text-center">“It does not matter how slowly you go as long as you do not stop.”</h5></div>          
+              <!-- Force next columns to break to new line -->
+              <div class="w-100"></div>
+          
+              <div class="text-center"><h5>73</h5></div>
             </div>
-            
+          </div>
+        
+          
 </html>

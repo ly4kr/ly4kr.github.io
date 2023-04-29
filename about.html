@@ -12,34 +12,25 @@
         body {
             background-color: #e3e3e3;
         }
-        h3 {
-            font-size: 1em;
-            text-align: center;
-            margin-top: 1em;
-            margin-bottom: 0em;
-        }
-        h2 {
-            font-size: 1em;
-            text-align: center;
-            margin: 0em;
-        }
+      
           
-        img {
-            border-radius: 10%;
-  max-inline-size: 100%;
-  block-size: auto;
-        }
+      
 
         .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
+.nav-item {
+  min-height: 2.8em;
+  
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+ 
   text-decoration: none;
   font-size: 17px;
 }
@@ -57,20 +48,42 @@
 .topnav-right {
   float: right;
 }
+
     </style>
     <body>
-        <div class="topnav">
-             <a href="index.html">Home</a>A
-            <a href="antennas.html">Antennas</a>
-            <a href="transceiver.html">Transceiver</a>
-            <a href="awards.html">Awards</a>
-            <div class="topnav-right">
-            <a class="active" href="about.html">About</a>
-            </div>
+     
+
+      
+        <nav class="navbar navbar-expand-sm" style="background-color: #333">
+
+          <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item topnav">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item topnav">
+                <a class="nav-link" href="antennas.html">Antennas</a>
+              </li>
+              <li class="nav-item topnav">
+                <a class="nav-link" href="transceiver.html">Transceiver</a>
+              </li>
+              <li class="nav-item topnav">
+                <a class="nav-link" href="awards.html">Awards</a>
+              </li>
+             
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item topnav">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+            </ul>
           </div>
+        
+        </nav>
   
 
-          <div class="container">
+        <div class="container">
           <div class="vh-100 d-flex justify-content-center align-items-center">
             <div class="row justify-content-center">
               <div><h5 class="text-center">“It does not matter how slowly you go as long as you do not stop.”</h5></div>          
@@ -81,7 +94,7 @@
             </div>
           </div>
 
-          </div>
+        </div>
+
         
-          
 </html>
